@@ -1,70 +1,34 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beleza & Cuidado</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<section id="produtos" class="produtos">
+    <h2>Produtos</h2>
 
-    <header>
-        <h1>Beleza & Cuidado</h1>
+    <div class="cards">
 
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="card" onclick="mostrarProduto(this)">
+            <h3> Batom</h3>
+            <p>Várias cores para completar sua maquiagem.</p>
 
-    <section id="inicio" class="inicio">
-        <h2>Realce sua beleza</h2>
-
-        <p>
-            Dicas e produtos para maquiagem e autocuidado.
-        </p>
-    </section>
-
-    <section id="produtos" class="produtos">
-        <h2>Produtos</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Batom</h3>
-                <p>Várias cores para completar sua maquiagem.</p>
+            <div class="foto-produto">
+                <img src="imagens/batom.jpg" alt="Batom">
             </div>
-
-            <div class="card">
-                <h3>Hidratante</h3>
-                <p>Cuide da sua pele mantendo-a hidratada.</p>
-            </div>
-
-            <div class="card">
-                <h3> Iluminador</h3>
-                <p>Um toque de brilho para deixar seu visual especial.</p>
-            </div>
-
         </div>
-    </section>
 
-    <section id="contato" class="contato">
-        <h2>Contato</h2>
+        <div class="card" onclick="mostrarProduto(this)">
+            <h3> Hidratante</h3>
+            <p>Cuide da sua pele mantendo-a hidratada.</p>
 
-        <p>Entre em contato para saber mais sobre nossos produtos.</p>
+            <div class="foto-produto">
+                <img src="imagens/hidratante.jpg" alt="Hidratante">
+            </div>
+        </div>
 
-        <a href="https://wa.me/SEUNUMERO?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos."
-           target="_blank">
-            <button>Enviar mensagem</button>
-        </a>
-    </section>
+        <div class="card" onclick="mostrarProduto(this)">
+            <h3>Iluminador</h3>
+            <p>Um toque de brilho para deixar seu visual especial.</p>
 
-    <footer>
-        <p>© 2026 Beleza & Cuidado</p>
-    </footer>
+            <div class="foto-produto">
+                <img src="imagens/iluminador.jpg" alt="Iluminador">
+            </div>
+        </div>
 
-</body>
-</html>
+    </div>
+</section>
